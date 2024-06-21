@@ -8,9 +8,16 @@ interface CardProps {
   title: string;
   description: string;
   link: string;
+  label: string;
 }
 
-const Card: React.FC<CardProps> = ({ imageUrl, title, description, link }) => {
+const Card: React.FC<CardProps> = ({
+  imageUrl,
+  title,
+  description,
+  link,
+  label,
+}) => {
   const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
@@ -45,10 +52,9 @@ const Card: React.FC<CardProps> = ({ imageUrl, title, description, link }) => {
         </div>
         <Link
           href={link}
-          target="_blank"
-          className="btn cursor-pointer mt-6 px-6 py-3 text-xs font-bold tracking-wide uppercase text-white bg-brand-200 border-none hover:bg-opacity-75 focus:outline-dashed focus:outline-yellow-400 focus:outline-offset-3 rounded-full"
+          className="btn cursor-pointer mt-6 px-6 py-3 text-xs font-bold tracking-wide uppercase text-white bg-teal-950 border-none hover:bg-opacity-75 focus:outline-dashed focus:outline-yellow-400 focus:outline-offset-3 rounded-full"
         >
-          Visit Website
+          {label}
         </Link>
       </div>
     </div>

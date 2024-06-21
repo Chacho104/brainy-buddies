@@ -36,7 +36,7 @@ body,
     width: 100%;
     text-align: center;
     color: whitesmoke;
-    background-color: whitesmoke;
+    background-color: coral;
 
     @media (min-width: 600px) {
       height: 350px;
@@ -124,11 +124,11 @@ body,
     letter-spacing: 0.025rem;
     text-transform: uppercase;
     color: white;
-    background-color: #048243;
+    background-color: #042f2e;
     border: none;
 
     &:hover {
-      background-color: lighten(#048243, 5%);
+      background-color: lighten(#042f2e, 5%);
     }
 
     &:focus {

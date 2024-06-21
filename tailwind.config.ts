@@ -19,6 +19,8 @@ const config: Config = {
       white: "#ffffff",
       black: "#000000",
       red: "#FF0000",
+      coral: "#FF7F50",
+      "teal-950": "#042f2e",
       "brand-100": "#000000",
       "brand-200": "#048243",
       "neutral-100": "#f5f5f5",

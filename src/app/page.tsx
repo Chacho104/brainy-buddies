@@ -1,33 +1,20 @@
 import Image from "next/image";
 import { Metadata } from "next";
 
-import { MdOutlineDesignServices } from "react-icons/md";
-import { FaCodeBranch } from "react-icons/fa";
-import { MdDevices } from "react-icons/md";
+import { FaFileAlt } from "react-icons/fa";
 import { HiOutlineChat } from "react-icons/hi";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
 
 import Container from "@/components/ui/container";
 import Card from "@/components/ui/card";
 import Link from "next/link";
+import { IoNewspaperOutline } from "react-icons/io5";
+import { SiGoogleclassroom } from "react-icons/si";
 
 export const metadata: Metadata = {
-  title: "Churchil Owino | Designer & Full-stack Software Developer",
+  title: "Brainy Buddies | Homework, Assignment, & Online Course Help",
   description:
-    "Hello, welcome to my portfolio webiste. Get to know my skills and review some of the projects I have designed and built. Start a conversation and, together, we could build something amazing.",
+    "We are a team of experts in all the major high school subjects and college courses and programs, and we help students around the world achieve their academic goals.",
 };
-
-const socialLinks = [
-  {
-    name: "LinkedIn",
-    icon: FaLinkedinIn,
-    href: "https://www.linkedin.com/in/churchilowino/",
-  },
-  { name: "GitHub", icon: FaGithub, href: "https://github.com/Chacho104" },
-  { name: "Email", icon: HiOutlineMail, href: "mailto:chachowino75@gmail.com" },
-];
 
 export default function Home() {
   return (
@@ -35,115 +22,114 @@ export default function Home() {
       <div>
         <Container>
           <nav className="flex justify-between items-center py-4">
-            <Link href="/" className="text-3xl font-bold text-brand-200">
-              chacho.
+            <Link href="/" className="text-3xl font-bold text-teal-950">
+              Brainy Buddies
             </Link>
             <Link
               href="/contact"
-              className="flex items-center justify-center gap-x-2 w-auto bg-transparent border-2 border-brand-200 rounded-full px-4 py-2 text-brand-200 hover:bg-brand-200 hover:text-white disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none transition"
+              className="flex items-center justify-center gap-x-2 w-auto bg-transparent border-2 border-teal-950 rounded-full px-4 py-2 text-teal-950 hover:bg-teal-950 hover:text-white disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none transition"
             >
-              Say Hello
+              Get Help
             </Link>
           </nav>
           <div className="flex flex-col items-center justify-center gap-y-8 py-20 text-center">
-            <h1 className="text-5xl font-bold leading-snug">
-              Designer & Full-stack Software Developer
+            <h1 className="text-5xl font-bold leading-snug text-teal-950">
+              Homework, Assignment, & Online Course Help
             </h1>
-            <p className="text-lg">
-              I design and code dynamic, interactive, accessible, and responsive
-              applications for the web.
+            <p className="text-lg w-full lg:w-[80%]">
+              We are a team of experts in all the major high school subjects and
+              college courses and programs, and we help students around the
+              world achieve their academic goals.
             </p>
             <Image
-              src="/images/profile-pic.jpeg"
+              src="/images/brainy-buddies-5.png"
               alt="My Profile Image"
-              width={200}
-              height={200}
-              className="rounded-full bg-transparent"
+              width={1761}
+              height={755}
+              sizes="100vw"
+              className="mt-0 lg:-mt-3 xl:-mt-10"
             />
           </div>
         </Container>
       </div>
-      <div className="bg-brand-100 h-[450px]">
+      <div className="bg-teal-950 h-[450px]">
         <Container>
           <div className="flex flex-col items-center justify-center gap-y-8 py-20 text-center">
             <h2 className="text-4xl font-semibold text-white leading-snug">
-              Hello there, great to connect with you!
+              Hello there, nice to meet you!
             </h2>
             <p className="w-full lg:w-[60%] text-center text-neutral-200 text-lg tracking-wider">
-              My name is Churchil Owino, and I am passionate about using modern
-              technologies and best practices to turn ideas into software
-              solutions that thrive on the web.
+              We are happy to guide you towards your academic goals with
+              professionalism and a genuine investment in your success.
             </p>
           </div>
         </Container>
       </div>
       <div>
         <Container>
-          <div className="h-auto bg-white -mt-[20%] sm:-mt-[20%] lg:-mt-[15%] xl:-mt-[10%] rounded-xl flex justify-between p-8 shadow-md flex-wrap sm:flex-nowrap gap-y-10 sm:gap-y-0">
-            <div className="flex flex-col items-center text-center gap-y-4 px-4">
-              <div className="w-16 h-16 rounded-full bg-brand-200 flex items-center justify-center text-center text-white">
-                <MdOutlineDesignServices size={28} />
+          <div className="h-auto bg-white -mt-[20%] sm:-mt-[20%] lg:-mt-[15%] xl:-mt-[10%] rounded-xl shadow-md flex justify-between p-8 flex-wrap lg:flex-nowrap gap-y-10 sm:gap-y-0">
+            <div className="flex flex-col items-center text-center gap-y-4 px-0 lg:px-4 lg:flex-1">
+              <div className="w-16 h-16 rounded-full bg-teal-950 flex items-center justify-center text-center text-white">
+                <FaFileAlt size={28} />
               </div>
-              <h3 className="text-xl font-semibold">
-                Fully Responisve Designs
-              </h3>
+              <h3 className="text-xl font-semibold">Assignments</h3>
               <p>
-                I offer responsive design services that ensure your web
-                applications are optimized for viewing on any device, providing
-                a seamless user experience across desktops, laptops, tablets,
-                and smartphones.
+                Our subject-specific experts are ready to help with your
+                discussion boards, peer reviews, short essays, term papers,
+                capstones, theses, dissertations, questions, lab works, lab
+                reports, quizzes, case studies, literature reviews, book reviews
+                and analysis, abstracts, annotated bibliographies, business
+                plans, group work, etc.
               </p>
-              <div>
-                <h4 className="text-lg text-brand-200 font-medium">
-                  Preferred Tools:
-                </h4>
-                <p className="font-medium">Figma & Canvas</p>
-              </div>
+              <Link
+                href="/contact"
+                className="flex items-center justify-center gap-x-2 w-auto bg-transparent border-2 border-teal-950 rounded-full px-4 py-2 text-teal-950 hover:bg-teal-950 hover:text-white disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none transition"
+              >
+                Get Help
+              </Link>
             </div>
-            <div className="flex flex-col items-center text-center gap-y-4 border-x-0 sm:border-x border-x-neutral-300 px-4">
+            <div className="flex flex-col items-center text-center gap-y-4 border-x-0 sm:border-x border-y lg:border-y-0 border-neutral-300 px-0 lg:px-4 py-10 lg:py-0 lg:flex-1">
               <div className="flex flex-col items-center text-center gap-y-4">
-                <div className="w-16 h-16 rounded-full bg-brand-200 flex items-center justify-center text-center text-white">
-                  <MdDevices size={28} />
+                <div className="w-16 h-16 rounded-full bg-teal-950 flex items-center justify-center text-center text-white">
+                  <IoNewspaperOutline size={28} />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold">Front-end Development</h3>
+              <h3 className="text-xl font-semibold">Exams & Tests</h3>
               <p>
-                I pay meticulous attention to detail, ensuring that every
-                element of the design is perfectly implemented and functions
-                smoothly across all devices and browsers.
+                Navigating the pressures of exams and tests can be challenging,
+                but our expert tutors are here to make the process smoother and
+                more manageable. Our highly experienced tutors will help you
+                tackle any exam with ease. Trust us to provide the guidance and
+                support you need to excel and achieve outstanding results.
               </p>
-              <div>
-                <h4 className="text-lg text-brand-200 font-medium">
-                  Preferred Tools:
-                </h4>
-                <p className="font-medium">
-                  HTML5, CSS3, Sass, Tailwind CSS, Bootstrap, Chakra UI, Shadcn
-                  UI, JavaScript, React.js, Next.js, Git & GitHub, Netlify,
-                  Vercel, & VS Code.
-                </p>
-              </div>
+              <Link
+                href="/contact"
+                className="flex items-center justify-center gap-x-2 w-auto bg-transparent border-2 border-teal-950 rounded-full px-4 py-2 text-teal-950 hover:bg-teal-950 hover:text-white disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none transition"
+              >
+                Get Help
+              </Link>
             </div>
-            <div className="flex flex-col items-center text-center gap-y-4 px-4">
+            <div className="flex flex-col items-center text-center gap-y-4 px-0 lg:px-4 lg:flex-1">
               <div className="flex flex-col items-center text-center gap-y-4">
-                <div className="w-16 h-16 rounded-full bg-brand-200 flex items-center justify-center text-center text-white">
-                  <FaCodeBranch size={28} />
+                <div className="w-16 h-16 rounded-full bg-teal-950 flex items-center justify-center text-center text-white">
+                  <SiGoogleclassroom size={28} />
                 </div>
               </div>
-              <h3 className="text-xl font-semibold">Back-end Development</h3>
+              <h3 className="text-xl font-semibold">Online Courses</h3>
               <p>
-                I ensure that your application&#39;s logic, database
-                interactions, and server configurations are secure, efficient,
-                reliable and easily scalable.
+                In the evolving landscape of online education, our team excels
+                at providing exceptional support for your online courses. Our
+                tutors are adept at navigating virtual learning environments and
+                can help you maximize your online course experience with ease,
+                ensuring you stay on track for your degree no matter your
+                schedule.
               </p>
-              <div>
-                <h4 className="text-lg text-brand-200 font-medium">
-                  Preferred Tools:
-                </h4>
-                <p className="font-medium">
-                  Node.js, Next.js, Mongo DB, Firebase, AWS RDS, AWS S3, Prisma,
-                  Cloudinary, Git & GitHub, Netlify, Vercel, VPS, & VS Code.
-                </p>
-              </div>
+              <Link
+                href="/contact"
+                className="flex items-center justify-center gap-x-2 w-auto bg-transparent border-2 border-teal-950 rounded-full px-4 py-2 text-teal-950 hover:bg-teal-950 hover:text-white disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none transition"
+              >
+                Get Help
+              </Link>
             </div>
           </div>
         </Container>
@@ -151,63 +137,57 @@ export default function Home() {
       <div>
         <Container>
           <div className="my-10 text-center flex flex-col gap-y-4">
-            <h1 className="text-4xl font-bold leading-snug">Recent Projects</h1>
-            <p>
-              Here are some of the projects I have designed and built over the
-              past year.
+            <h1 className="text-4xl font-bold leading-snug text-teal-950">
+              How It Works
+            </h1>
+            <p className="w-full lg:w-[80%] mx-auto">
+              Use the Contact Us form to send us a message and we will respond
+              ASAP, join our Discord Server, or create an account and engage us
+              right here (coming soon). No intermediaries.
             </p>
-            <div className="flex items-center justify-between gap-x-3 lg:gap-x-10 pt-6 flex-wrap sm:flex-nowrap gap-y-10 sm:gap-y-0">
+            <div className="flex items-center justify-between gap-x-3 lg:gap-x-6 pt-6 flex-wrap lg:flex-nowrap gap-y-6 lg:gap-y-0">
               <Card
-                imageUrl="/images/saruk-banner-4.png"
-                title="Saruk"
-                description="Leading seller of laptops, desktops, tablets, phones, projectors, printers, and many more in Nairobi, Kenya."
-                link="https://saruk.co.ke/"
+                imageUrl="/images/contact-form-banner.png"
+                title="Contact Form"
+                description="Send us a quick message and we will respond ASAP and get you started on your path to academic excellence."
+                link="/contact"
+                label="CONTACT US"
               />
               <Card
-                imageUrl="/images/adir-banner.jpeg"
-                title="Adir Solutions"
-                description="Web design and development agency driving growth in small businesses through the power of technology."
-                link="https://adirsolutions.com/"
+                imageUrl="/images/discord-banner.png"
+                title="Discord Server"
+                description="Join a vibrant community of tutors dedicated to fostering collaboration, support, and growth in your academic journey."
+                link="/"
+                label="JOIN SERVER"
               />
               <Card
-                imageUrl="/images/little-lemon-banner-2.jpeg"
-                title="Little Lemon"
-                description="Simple implementation of ordering and table booking process for Little Lemon, an imaginary restaurant."
-                link="https://little-lemon-theta.vercel.app/"
+                imageUrl="/images/user-banner.jpeg"
+                title="Create Account"
+                description="Sign up for a student account and find a tutor right here on our simple-to-use website (coming soon)."
+                link="/"
+                label="SIGN UP"
               />
             </div>
           </div>
         </Container>
       </div>
-      <div className="bg-white text-center flex flex-col gap-y-4">
+      <div className="bg-white text-center flex flex-col gap-y-4 mb-12">
         <h1 className="text-4xl font-bold leading-snug">
-          Need to get a project done?
+          Need to get something done?
         </h1>
         <p className="font-medium">
-          Let&#39;s have a chat about the project and who knows? Maybe we can
-          build the next big thing...together!
+          Let&#39;s have a chat about your assignment, exam, test, or online
+          course and help you get those As!
         </p>
         <div className="pt-4 flex items-center justify-center">
           <Link
             href="/contact"
-            className="flex items-center justify-center gap-x-2 w-auto bg-transparent border-2 border-brand-200 rounded-full px-6 py-2 text-brand-200 hover:bg-brand-200 hover:text-white disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none transition"
+            className="flex items-center justify-center gap-x-2 w-auto bg-transparent border-2 border-teal-950 rounded-full px-6 py-2 text-teal-950 hover:bg-teal-950 hover:text-white disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none transition"
           >
             <HiOutlineChat size={24} />
             Start a conversation
           </Link>
         </div>
-      </div>
-      <div className="bg-black h-24 mt-10 flex items-center justify-center gap-x-10">
-        {socialLinks.map((link) => (
-          <Link
-            target="_blank"
-            key={link.name}
-            href={link.href}
-            className="hover:text-brand-200 text-white"
-          >
-            <link.icon size={38} />
-          </Link>
-        ))}
       </div>
     </main>
   );

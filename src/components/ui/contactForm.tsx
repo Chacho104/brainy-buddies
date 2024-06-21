@@ -13,9 +13,6 @@ import CustomInput from "../input/customInput";
 const ContactMeForm: React.FC = () => {
   const [loading, setLoading] = useState(false);
 
-  const phoneRegExp =
-    /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
-
   return (
     <Formik
       initialValues={{
@@ -62,8 +59,8 @@ const ContactMeForm: React.FC = () => {
       })}
     >
       <Form className="flex flex-col gap-y-6 w-full md:max-w-[75%] xl:max-w-[50%] mx-auto pb-10">
-        <h1 className="text-4xl font-medium text-center leading-relaxed">
-          Thanks for your interest in my services. How can I help you today?
+        <h1 className="text-4xl font-medium text-center leading-relaxed text-teal-950">
+          Thanks for your interest in our services. How can we help you today?
         </h1>
         <div className="flex flex-col sm:flex-row gap-y-6 sm:gap-y-0 gap-x-6">
           <CustomInput
@@ -99,7 +96,7 @@ const ContactMeForm: React.FC = () => {
           <button
             type="submit"
             disabled={loading}
-            className="flex items-center justify-center gap-x-2 w-auto bg-transparent border-2 border-brand-200 rounded-full px-4 py-2 text-brand-200 hover:bg-brand-200 hover:text-white disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none transition"
+            className="flex items-center justify-center gap-x-2 w-auto bg-transparent border-2 border-teal-950 rounded-full px-4 py-2 text-teal-950 hover:bg-teal-950 hover:text-white disabled:cursor-not-allowed disabled:opacity-50 disabled:pointer-events-none transition"
           >
             Send Message
           </button>
