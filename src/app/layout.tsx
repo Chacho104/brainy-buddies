@@ -11,14 +11,14 @@ import Link from "next/link";
 const font = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Churchil Owino | Designer & Full-stack Software Developer",
+  title: "Brainy Buddies | Homework, Assignment, & Online Course Help",
   description:
-    "Hello, welcome to my portfolio webiste. Get to know my skills and review some of the projects I have designed and built. Start a conversation and, together, we could build something amazing.",
+    "We are a team of experts in all the major high school subjects and college courses and programs, and we help students around the world achieve their academic goals.",
 };
 
 const socialLinks = [
-  { name: "Discord", icon: FaDiscord, href: "https://github.com/Chacho104" },
-  { name: "Email", icon: HiOutlineMail, href: "mailto:chachowino75@gmail.com" },
+  { name: "Discord", icon: FaDiscord, href: "https://discord.gg/VH2yVPHbyC" },
+  { name: "Email", icon: HiOutlineMail, href: "mailto:brainybuddieshelp@gmail.com" },
 ];
 
 export default function RootLayout({

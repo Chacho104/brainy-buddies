@@ -26,16 +26,16 @@ const ContactMeForm: React.FC = () => {
 
         emailjs
           .send(
-            "service_ub0ai7m",
-            "template_uitkb3n",
+            "service_at842aj",
+            "template_m7us8gj",
             values,
-            "gRb2MVaDpo-wmrhbD"
+            "4mGSrzGmue3Ifejlc"
           )
           .then(
             function (response) {
               console.log("SUCCESS!", response.status, response.text);
               toast.success(
-                "Your message has been successfully sent. I will get back to you shortly!"
+                "Your message has been successfully sent. We will get back to you shortly!"
               );
               resetForm();
             },

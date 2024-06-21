@@ -157,7 +157,7 @@ export default function Home() {
                 imageUrl="/images/discord-banner.png"
                 title="Discord Server"
                 description="Join a vibrant community of tutors dedicated to fostering collaboration, support, and growth in your academic journey."
-                link="/"
+                link="https://discord.gg/VH2yVPHbyC"
                 label="JOIN SERVER"
               />
               <Card

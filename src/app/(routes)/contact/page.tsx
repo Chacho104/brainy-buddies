@@ -1,14 +1,12 @@
-import Image from "next/image";
-
 import ContactMeForm from "@/components/ui/contactForm";
 import Container from "@/components/ui/container";
 import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Churchil Owino | Designer & Full-stack Software Developer",
+  title: "Brainy Buddies | Homework, Assignment, & Online Course Help",
   description:
-    "Hello, welcome to my portfolio webiste. Get to know my skills and review some of the projects I have designed and built. Start a conversation and, together, we could build something amazing.",
+    "We are a team of experts in all the major high school subjects and college courses and programs, and we help students around the world achieve their academic goals.",
 };
 
 const ContactMePage = () => {
