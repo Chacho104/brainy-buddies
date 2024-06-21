@@ -60,7 +60,7 @@ const ContactMeForm: React.FC = () => {
     >
       <Form className="flex flex-col gap-y-6 w-full md:max-w-[75%] xl:max-w-[50%] mx-auto pb-10">
         <h1 className="text-4xl font-medium text-center leading-relaxed text-teal-950">
-          Thanks for your interest in our services. How can we help you today?
+          Thanks for your interest in our services. How can we help you?
         </h1>
         <div className="flex flex-col sm:flex-row gap-y-6 sm:gap-y-0 gap-x-6">
           <CustomInput
