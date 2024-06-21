@@ -11,7 +11,7 @@ import { IoNewspaperOutline } from "react-icons/io5";
 import { SiGoogleclassroom } from "react-icons/si";
 
 export const metadata: Metadata = {
-  title: "Brainy Buddies | Homework, Assignment, & Online Course Help",
+  title: "Brainny Buddies | Homework, Assignment, & Online Course Help",
   description:
     "We are a team of experts in all the major high school subjects and college courses and programs, and we help students around the world achieve their academic goals.",
 };
@@ -23,7 +23,7 @@ export default function Home() {
         <Container>
           <nav className="flex justify-between items-center py-4">
             <Link href="/" className="text-3xl font-bold text-teal-950">
-              Brainy Buddies
+              Brainny Buddies
             </Link>
             <Link
               href="/contact"

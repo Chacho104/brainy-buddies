@@ -11,7 +11,7 @@ import Link from "next/link";
 const font = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Brainy Buddies | Homework, Assignment, & Online Course Help",
+  title: "Brainny Buddies | Homework, Assignment, & Online Course Help",
   description:
     "We are a team of experts in all the major high school subjects and college courses and programs, and we help students around the world achieve their academic goals.",
 };
@@ -35,7 +35,7 @@ export default function RootLayout({
           <Container>
             <div className="flex items-center justify-center min-[594px]:justify-between flex-wrap-reverse min-[594px]:flex-nowrap gap-y-4 min-[594px]:gap-y-0 gap-x-8">
               <p className="font-medium text-neutral-200 text-center md:text-start">
-                &copy; Brainy Buddies, 2024 | Absolute Confidentiality
+                &copy; Brainny Buddies, 2024 | Absolute Confidentiality
                 Guaranteed
               </p>
               <div className="flex gap-x-8 items-center">
